@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Challenge #4</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+  <main>
+    <h1>JavaScript Challenge #4</h1>
+	  <form action="challenge5.html" method  = "GET" id = "challenge4_form">
+        <fieldset>
+        <legend>Personal details</legend>
+          <label for="name">Full name: </label>
+            <input type="text" name="name" id="name"><br/>
+       
+            <p class="errormsg alert" id="nmError">Please enter your name above!</p>
+
+          <label for ="addr">
+            Street Address:</label>
+            <input type="text" name="addr" id="addr">
+       
+            <p class="errormsg alert" id="addrError">Please enter your street address!</p>
+        </fieldset>
+        <input type="submit" value="Submit it!"> 
+    </form>
+   
+  </main>
+  <script src = "js/challenge4.js"></script>
+</body>
+</html>
